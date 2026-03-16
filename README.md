@@ -1,8 +1,8 @@
-EMS CORE - Enterprise Employee Management System
+#EMS CORE - Enterprise Employee Management System
 
 EMS CORE is a full-stack lifecycle management application designed for modern workplaces. It streamlines HR operations by providing a centralized platform for employee administration, automated work-hour analytics, and digital leave management.
 
-🚀 Project Overview
+#🚀 Project Overview
 The system is built on a Three-Tier Architecture (Client-Server-Database). It separates administrative controls from staff interfaces to ensure data security and operational efficiency.
 
 Key Functional Pillars:
@@ -14,7 +14,7 @@ Work Analytics: Precise tracking of productivity hours using SQL-side time-stamp
 
 Manage Team: A secure portal for Admins to perform CRUD (Create, Read, Update, Delete) operations on staff profiles.
 
-🚀 Key Features by Role
+#🚀 Key Features by Role
 👨‍💼 Admin Portal (Management)
 Total Oversight: Access to the "Manage Team" section to Add, Edit, or Delete staff members.
 
@@ -33,7 +33,7 @@ Digital Leave Requests: Submit Sick or Casual leave applications with custom rea
 
 Profile Integrity: Staff accounts are read-only for personal details, ensuring data consistency.
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 Frontend: React.js (State Management, Axios, CSS3 Flexbox)
 
 Backend: Node.js, Express.js (RESTful API Design)
@@ -47,7 +47,7 @@ node_modules/   # (Ignored in Git)
 README.md           # Documentation
 
 
-⚙️ How to Run This Project
+#⚙️ How to Run This Project
 1. Database Setup (MySQL)
 Open your MySQL Workbench or Terminal and execute the following script:
 
@@ -97,7 +97,7 @@ Navigate to the backend folder.
 
 Install dependencies: npm install
 
-### 🔑 Security Step: Setup Environment Variables
+###2. 🔑 Security Step: Setup Environment Variables
 Create a file named `.env` in the backend folder and add the following:
 
 DB_HOST=localhost
@@ -115,7 +115,7 @@ Install dependencies: npm install
 
 Start the app: npm start
 
-🔐 Credentials for Demo
+#🔐 Credentials for Demo
 Role: Admin | Username: admin | Password: admin
 
 Role: Staff | Create a staff user via the Admin panel first, then log in.
