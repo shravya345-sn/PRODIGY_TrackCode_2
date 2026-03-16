@@ -100,10 +100,12 @@ Install dependencies: npm install
 ### 🔑 Security Step: Setup Environment Variables
 Create a file named `.env` in the backend folder and add the following:
 
-```text
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASS=YOUR_MYSQL_PASSWORD_HERE
+
 DB_NAME=ems_db
 
 3. Frontend Setup
