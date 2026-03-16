@@ -94,14 +94,12 @@ CREATE TABLE leaves (
 );
 -- Initial Admin Login
 INSERT INTO users (username, password, role) VALUES ('admin', 'admin', 'admin');
-2. Backend Setup
-Navigate to the backend folder.
+### 2. Backend Setup
+Navigate to the backend folder and install the necessary packages:
+cd backend
 
-Install dependencies: npm install
-
-### 2. 🔑 Security Step: Setup Environment Variables
-Create a file named `.env` in the backend folder and add the following:
-
+npm install
+### 🔑 Security Step: Create a file named .env in the backend folder and add:
 DB_HOST=localhost
 
 DB_USER=root
@@ -111,11 +109,13 @@ DB_PASS=YOUR_MYSQL_PASSWORD_HERE
 DB_NAME=ems_db
 
 ### 3. Frontend Setup
-Navigate to the frontend folder.
+Navigate to the frontend folder, install dependencies, and start the app:
 
-Install dependencies: npm install
+cd frontend
 
-Start the app: npm start
+npm install
+
+npm start
 
 ## 🔐 Credentials for Demo
 Role: Admin | Username: admin | Password: admin
