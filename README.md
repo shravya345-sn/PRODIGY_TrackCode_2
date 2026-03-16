@@ -42,19 +42,23 @@ Database: MySQL (Relational Data Persistence)
 
 Design Architecture: Decoupled Client-Server model
 
-📂 Folder Structure
-Plaintext
+## 📂 Project Structure
+
+```text
 EMS_PROJECT/
-├── backend/            # Node.js + Express API
-│   ├── server.js       # Main server logic & DB connection
-│   ├── .env            # Private environment variables (DB Credentials)
-│   ├── package.json    # Backend dependencies
-│   └── node_modules/   # (Ignored in Git)
-├── frontend/           # React.js Application
+├── backend/                # Node.js + Express API
+│   ├── server.js           # Main server logic & DB connection
+│   ├── .env                # Private environment variables (Ignored)
+│   └── package.json        # Backend dependencies
+├── frontend/               # React.js Application
 │   ├── src/
-│   │   ├── App.js      # Main UI and State logic
-│   │   └── index.js    # React entry point
-│   ├── package.json    # Frontend dependencies
+│   │   ├── App.js          # Main UI and State logic
+│   │   └── index.js        # React entry point
+│   └── package.json        # Frontend dependencies
+├── README.md               # Documentation
+└── .gitignore              # Files to exclude from Git
+
+# Frontend dependencies
 │   └── node_modules/   # (Ignored in Git)
 └── README.md           # Documentation
 ⚙️ How to Run This Project
