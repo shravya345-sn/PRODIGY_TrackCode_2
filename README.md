@@ -42,22 +42,6 @@ Database: MySQL (Relational Data Persistence)
 
 Design Architecture: Decoupled Client-Server model
 
-## 📂 Project Structure
-
-```text
-EMS_PROJECT/
-├── backend/                # Node.js + Express API
-│   ├── server.js           # Main server logic & DB connection
-│   ├── .env                # Private environment variables (Ignored)
-│   └── package.json        # Backend dependencies
-├── frontend/               # React.js Application
-│   ├── src/
-│   │   ├── App.js          # Main UI and State logic
-│   │   └── index.js        # React entry point
-│   └── package.json        # Frontend dependencies
-├── README.md               # Documentation
-└── .gitignore              # Files to exclude from Git
-
 # Frontend dependencies
 │   └── node_modules/   # (Ignored in Git)
 └── README.md           # Documentation
@@ -131,5 +115,21 @@ Start the app: npm start
 Role: Admin | Username: admin | Password: admin
 
 Role: Staff | Create a staff user via the Admin panel first, then log in.
+
+## 📂 Project Structure
+
+```text
+EMS_PROJECT/
+├── backend/                # Node.js + Express API
+│   ├── server.js           # Main server logic & DB connection
+│   ├── .env                # Private environment variables (Ignored)
+│   └── package.json        # Backend dependencies
+├── frontend/               # React.js Application
+│   ├── src/
+│   │   ├── App.js          # Main UI and State logic
+│   │   └── index.js        # React entry point
+│   └── package.json        # Frontend dependencies
+├── README.md               # Documentation
+└── .gitignore              # Files to exclude from Git
 
 
