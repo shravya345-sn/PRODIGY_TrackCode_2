@@ -43,13 +43,16 @@ Database: MySQL (Relational Data Persistence)
 Design Architecture: Decoupled Client-Server model
 
 # Frontend dependencies
-│   └── node_modules/   # (Ignored in Git)
-└── README.md           # Documentation
+node_modules/   # (Ignored in Git)
+README.md           # Documentation
+
+
 ⚙️ How to Run This Project
 1. Database Setup (MySQL)
 Open your MySQL Workbench or Terminal and execute the following script:
 
 SQL
+
 CREATE DATABASE ems_db;
 USE ems_db;
 
@@ -87,7 +90,6 @@ CREATE TABLE leaves (
     status ENUM('Pending', 'Approved', 'Rejected') DEFAULT 'Pending',
     applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 -- Initial Admin Login
 INSERT INTO users (username, password, role) VALUES ('admin', 'admin', 'admin');
 2. Backend Setup
