@@ -99,7 +99,7 @@ Install dependencies: npm install
 
 SECURITY STEP: Open the .env file and replace the password with your own MySQL root password:
 
-Plaintext
+
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=YOUR_MYSQL_PASSWORD_HERE
