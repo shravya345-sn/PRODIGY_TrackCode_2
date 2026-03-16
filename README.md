@@ -43,7 +43,9 @@ Database: MySQL (Relational Data Persistence)
 Design Architecture: Decoupled Client-Server model
 
 ## Frontend dependencies
+
 node_modules/   # (Ignored in Git)
+
 README.md           # Documentation
 
 
